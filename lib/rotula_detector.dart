@@ -30,7 +30,7 @@ class _RotulaDetectorState extends State<RotulaDetector> {
 
   Future<void> _runGemini(File image) async {
     final model = GenerativeModel(
-      model: 'gemini-pro-vision',
+      model: 'gemini-2.5-flash',
       apiKey: apiKey,
     );
 
